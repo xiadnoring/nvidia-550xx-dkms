@@ -134,7 +134,7 @@ local/wayland 1.23.1-2
     A computer display server protocol
 ```
 
-[More here](https://github.com/xiadnoring/manapi-http/nvidia-550xx-dkms/blob/main/packages.list) | 
+[More here](https://github.com/xiadnoring/nvidia-550xx-dkms/blob/main/packages.list) | 
 [archive.archlinux.org](https://archive.archlinux.org)
 
 ## Finish
