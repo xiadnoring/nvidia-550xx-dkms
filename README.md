@@ -164,3 +164,8 @@ Thu Jun 19 13:12:45 2025
 |    0   N/A  N/A     11724    C+G   nautilus                                        6MiB |
 +-----------------------------------------------------------------------------------------+
 ```
+
+## Thanks
+Thanks to that good people
+- [People from aur](https://aur.archlinux.org/packages/nvidia-550xx-utils)
+- [People from cachyos](https://github.com/CachyOS/CachyOS-PKGBUILDS/tree/feat/nvidia-575/nvidia/nvidia-utils)
