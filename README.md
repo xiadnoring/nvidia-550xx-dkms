@@ -137,6 +137,13 @@ local/wayland 1.23.1-2
 [More here](https://github.com/xiadnoring/nvidia-550xx-dkms/blob/main/packages.list) | 
 [archive.archlinux.org](https://archive.archlinux.org)
 
+## SDDM/GDM
+
+If you are stuck with a black screen or something else:
+
+- [sddm](https://wiki.archlinux.org/title/NVIDIA_Optimus#SDDM)
+- [gdm](https://wiki.archlinux.org/title/NVIDIA_Optimus#GDM)
+
 ## Finish
 ```bash
 $ nvidia-smi
