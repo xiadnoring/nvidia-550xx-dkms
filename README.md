@@ -1,6 +1,6 @@
 # NVidia 550.163.01
 
-Contains patches for compilation on Linux **6.15.2**-zen1-1-zen using gcc (GCC) **15.1.1** 20250425.
+Contains patches to compilation on Linux **6.15.2**-zen1-1-zen using gcc (GCC) **15.1.1** 20250425.
 
 For Arch Linux only
 
