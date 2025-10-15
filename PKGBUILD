@@ -24,6 +24,7 @@ source=('nvidia-drm-outputclass.conf'
 		'0003-Workaround-nv_vm_flags_-calling-GPL-only-code.patch'
 		'0003-Kbuild-Convert-EXTRA_CFLAGS-to-ccflags-y.patch'
 		'0004-kernel-open-nvidia-Use-new-timer-functions-for-6.15.patch'
+		'0005-linux-6-17.patch'
 		"https://us.download.nvidia.com/XFree86/Linux-x86_64/${pkgver}/${_pkg}.run")
 sha512sums=('de7116c09f282a27920a1382df84aa86f559e537664bb30689605177ce37dc5067748acf9afd66a3269a6e323461356592fdfc624c86523bf105ff8fe47d3770'
 			'4b3ad73f5076ba90fe0b3a2e712ac9cde76f469cd8070280f960c3ce7dc502d1927f525ae18d008075c8f08ea432f7be0a6c3a7a6b49c361126dcf42f97ec499'
@@ -31,6 +32,7 @@ sha512sums=('de7116c09f282a27920a1382df84aa86f559e537664bb30689605177ce37dc50677
 			'a0183adce78e40853edf7e6b73867e7a8ea5dabac8e8164e42781f64d5232fbe869f850ab0697c3718ebced5cde760d0e807c05da50a982071dfe1157c31d6b8'
 			'55def6319f6abb1a4ccd28a89cd60f1933d155c10ba775b8dfa60a2dc5696b4b472c14b252dc0891f956e70264be87c3d5d4271e929a4fc4b1a68a6902814cee'
 			'6814990f8046759d35f724ac9114d7fa284710fd1ad8cca7e1a861ea54a72fe4f67b5614f157a911f5ecfa0c964fa989edc61c85b1cfef6428e0cd7cdeea856e'
+			'SKIP'
 			'SKIP'
 			'SKIP'
 			'SKIP'
@@ -58,6 +60,7 @@ prepare() {
     patch -Np1 -i "${srcdir}/0003-Kbuild-Convert-EXTRA_CFLAGS-to-ccflags-y.patch" -d "${srcdir}/${_pkg}"
     patch -Np1 -i "${srcdir}/0003-Workaround-nv_vm_flags_-calling-GPL-only-code.patch" -d "${srcdir}/${_pkg}/kernel"
     patch -Np1 -i "${srcdir}/0004-kernel-open-nvidia-Use-new-timer-functions-for-6.15.patch" -d "${srcdir}/${_pkg}"
+    patch -Np1 -i "${srcdir}/0005-linux-6-17.patch" -d "${srcdir}/${_pkg}/kernel"
 
 	cd kernel
 
